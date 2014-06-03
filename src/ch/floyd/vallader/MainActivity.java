@@ -19,10 +19,10 @@ import ch.floyd.vallader.parsers.webviews.PledariWebviewParserVallader;
 import ch.floyd.vallader.parsers.webviews.UdgWebviewParserGerman;
 import ch.floyd.vallader.parsers.webviews.UdgWebviewParserVallader;
 import ch.floyd.vallader.searcher.LehrpersonenSearcher;
-import ch.floyd.vallader.searcher.PledariWebviewSearcherGerman;
-import ch.floyd.vallader.searcher.PledariWebviewSearcherVallader;
-import ch.floyd.vallader.searcher.UdgWebviewSearcherGerman;
-import ch.floyd.vallader.searcher.UdgWebviewSearcherVallader;
+import ch.floyd.vallader.searcher.PledariSearcherGerman;
+import ch.floyd.vallader.searcher.PledariSearcherVallader;
+import ch.floyd.vallader.searcher.UdgSearcherGerman;
+import ch.floyd.vallader.searcher.UdgSearcherVallader;
 
 public class MainActivity extends Activity {
 	
@@ -75,15 +75,17 @@ public class MainActivity extends Activity {
 			ArrayList<Searcher> list = new ArrayList<Searcher>();
 			list.add(new LehrpersonenSearcher(this, new Parser[]{new LehrpersonenWebviewParser(this)}));
 			
-			list.add(new PledariWebviewSearcherGerman(this, new Parser[]{
-						new PledariTextParserGerman(this), new PledariWebviewParserGerman(this)
+			list.add(new PledariSearcherGerman(this, new Parser[]{
+						//new PledariTextParserGerman(this), 
+						new PledariWebviewParserGerman(this)
 					}));
-			list.add(new PledariWebviewSearcherVallader(this, new Parser[]{
-						new PledariTextParserVallader(this), new PledariWebviewParserVallader(this)
+			list.add(new PledariSearcherVallader(this, new Parser[]{
+						//new PledariTextParserVallader(this), 
+						new PledariWebviewParserVallader(this)
 					}));
 			
-			list.add(new UdgWebviewSearcherGerman(this, new Parser[]{new UdgWebviewParserGerman(this)}));
-			list.add(new UdgWebviewSearcherVallader(this, new Parser[]{new UdgWebviewParserVallader(this)}));
+			list.add(new UdgSearcherGerman(this, new Parser[]{new UdgWebviewParserGerman(this)}));
+			list.add(new UdgSearcherVallader(this, new Parser[]{new UdgWebviewParserVallader(this)}));
 			
 			for(Searcher s : list){
 				// we don't want to crash just because one parser doesn't work

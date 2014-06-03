@@ -10,14 +10,14 @@ import ch.floyd.vallader.PostRequest;
 import ch.floyd.vallader.parsers.Parser;
 import ch.floyd.vallader.parsers.Searcher;
 
-public abstract class PledariWebviewSearcher extends Searcher{
+public abstract class PledariSearcher extends Searcher{
 	
 	protected static String direction;
 	
-	public PledariWebviewSearcher(MainActivity a, Parser[] p){
+	public PledariSearcher(MainActivity a, Parser[] p){
 		super(a, p);
 		results_found_string = "Treffer:";
-		results_not_found_string = "0              / Dieser Begriff";
+		results_not_found_string = "0              / Dieser Begriff:";
 		searchUrl = "http://www.pledari.ch/meinpledari/index.php";
 	}
 	

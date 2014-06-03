@@ -19,11 +19,12 @@ public abstract class Searcher {
 	
 	public abstract void search(String query);
 	public void parseResult(String result){
+		String result_lower = result.toLowerCase();
 		if(results_found_string != null){
-			results_found = result.toLowerCase().contains(results_found_string.toLowerCase());
+			results_found = result_lower.contains(results_found_string.toLowerCase());
 		}
 		if(results_not_found_string != null){
-			results_not_found = result.contains(results_not_found_string.toLowerCase());
+			results_not_found = result_lower.contains(results_not_found_string.toLowerCase());
 		}
 		for(Parser parser : p){
 			parser.parseResult(result, this);

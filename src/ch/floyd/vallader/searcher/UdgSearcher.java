@@ -10,9 +10,9 @@ import ch.floyd.vallader.MainActivity;
 import ch.floyd.vallader.parsers.Parser;
 import ch.floyd.vallader.parsers.Searcher;
 
-public abstract class UdgWebviewSearcher extends Searcher{
+public abstract class UdgSearcher extends Searcher{
 		
-	public UdgWebviewSearcher(MainActivity a, Parser[] p){
+	public UdgSearcher(MainActivity a, Parser[] p){
 		super(a, p);
 		results_found_string = "Glista dals resultats";
 	}
