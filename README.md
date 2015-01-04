@@ -24,3 +24,6 @@ License
 in your project folder you can do whatever you want with this stuff. If we meet some day, and you think
 this stuff is worth it, you can buy me a beer in return. You can also give me a
 shout on Twitter on @floyd_ch if you appreciate it.
+
+
+The scuol picture was taken by Vasile Cotovanu, I simply croped it: https://www.flickr.com/photos/vasile23/4418743031/in/photolist-7Jtdrn-9tELN8-9tHHam-9tEKq8-7JtdmF-fvRC5i-9tHGuQ-7Jtdkg-7Jx92Q-9tHGZE-9tELWz-8rNK37-4J5LFn-9tEHsr-9tHHPS-9tHHEQ-9tELfr-bHH3bK-9tHJjw-9tEL6B-8s2ZDJ-8UAgzt-9tEHB8-9tEHLH-8rYWaB-9tEJV6-9tHG3d-9tHFof-9tHFed-9tEJAK-9tEJrF-9tHFyQ-mw5NsK-mw7eho-mw5WeX-8rYWrx-7Jx9i3-mw713h-5jVT8U-9tHGPW-7Jtdpa-7Jtdoe-8rYWFV-ikUto8-fvRDjX-fvRB1H-fw6TTj-7Jtdee-adkuBG-adktyL
