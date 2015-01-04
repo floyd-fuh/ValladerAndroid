@@ -3,6 +3,12 @@ ValladerAndroid
 
 Vallader Romansh - German dictionary app for Android. You can type a word in German or Vallader Romansh and it will display some results from web sources (in WebViews).
 
+Deutsch - Vallader
+Vallader - Deutsch
+
+Tudais-ch - Vallader
+Vallader - Tudais-ch
+
 Ok, here is the deal. I'm usually not programming Android applications, this was a one-shot bored sunday afternoon project and I simply wrote this app for the sake of "something is better than nothing" while I'm learning Vallader Romansh.
 
 The only reason I put it to the public domain is because friends liked it and wanted it, too. You can download the full source code on https://github.com/floyd-fuh/ValladerAndroid .  And I thought it is sad that an entire idiom (and nearly the entire language) has not a single (free) app in the Android play store.
