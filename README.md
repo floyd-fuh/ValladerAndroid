@@ -14,7 +14,7 @@ License
 ===============
 
 "THE BEER-WARE LICENSE" (Revision 42):
-<floyd at floyd dot ch> wrote this app.  As long as you retain this notice *somewhere*
+"floyd at floyd dot ch" wrote this app.  As long as you retain this notice *somewhere*
 in your project folder you can do whatever you want with this stuff. If we meet some day, and you think
 this stuff is worth it, you can buy me a beer in return. You can also give me a
 shout on Twitter on @floyd_ch if you appreciate it.
