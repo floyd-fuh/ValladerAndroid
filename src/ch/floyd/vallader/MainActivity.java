@@ -11,8 +11,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import ch.floyd.vallader.parsers.Parser;
 import ch.floyd.vallader.parsers.Searcher;
-import ch.floyd.vallader.parsers.text.PledariTextParserGerman;
-import ch.floyd.vallader.parsers.text.PledariTextParserVallader;
 import ch.floyd.vallader.parsers.webviews.LehrpersonenWebviewParser;
 import ch.floyd.vallader.parsers.webviews.PledariWebviewParserGerman;
 import ch.floyd.vallader.parsers.webviews.PledariWebviewParserVallader;
