@@ -23,7 +23,7 @@ public abstract class PledariWebviewParser extends Parser{
 		if(s.results_found && !s.results_not_found){
 			wv.setVisibility(View.VISIBLE);
 			label.setVisibility(View.VISIBLE);
-			wv.loadDataWithBaseURL(s.searchUrl, result, "text/html; chartset=iso-8859-1", "iso-8859-1", null);
+			wv.loadData(result, "text/html; charset=iso-8859-1", "iso-8859-1");
 		}
 	}
 }

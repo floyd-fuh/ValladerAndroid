@@ -24,7 +24,7 @@ public abstract class UdgWebviewParser extends Parser{
 			String new_result = result.substring(result.indexOf(s.results_found_string));
 			wv.setVisibility(View.VISIBLE);
 			label.setVisibility(View.VISIBLE);
-			wv.loadDataWithBaseURL(s.searchUrl, new_result, "text/html; chartset=utf-8", "utf-8", null);
+			wv.loadData(new_result, "text/html; charset=utf-8", "utf-8");
 		}
 	}
 }

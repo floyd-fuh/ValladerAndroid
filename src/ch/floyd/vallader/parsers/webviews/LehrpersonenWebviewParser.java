@@ -28,7 +28,7 @@ public class LehrpersonenWebviewParser extends Parser{
 		if(s.results_found){
 			wv.setVisibility(View.VISIBLE);
 			label.setVisibility(View.VISIBLE);
-			wv.loadDataWithBaseURL(s.searchUrl, result, "text/html; chartset=utf-8", "utf-8", null);
+			wv.loadData(result, "text/html; charset=utf-8", "utf-8");
 		}
 	}
 
