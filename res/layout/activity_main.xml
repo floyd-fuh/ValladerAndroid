@@ -6,7 +6,7 @@
 
 <RelativeLayout 
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context="${packageName}.${activityClass}" >
 
     <EditText
@@ -17,6 +17,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="18dp"
         android:layout_marginTop="16dp"
+        android:inputType="text"
         android:ems="10" >
         <requestFocus />
     </EditText>
@@ -25,10 +26,22 @@
         android:id="@+id/search_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/search_field"
-        android:layout_toRightOf="@+id/search_field"
-        android:text="@+string/search_button" />
-
+        android:layout_alignTop="@id/search_field"
+        android:layout_toRightOf="@id/search_field"
+        android:text="@string/search_button" />
+	
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/search_field"
+        android:layout_below="@id/search_field"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/search_button"
+        android:text="@string/progress_start"
+       />
+    
     
     <!--  Make all android:visibility="gone" for startup from here on -->
     
@@ -39,7 +52,7 @@
         android:layout_alignLeft="@+id/search_field"
         android:layout_below="@+id/search_field"
         android:layout_marginTop="18dp"
-        android:text="aaa"
+        android:text="@string/pledari_ch"
         android:visibility="gone" 
        />
     
@@ -50,7 +63,7 @@
         android:layout_alignLeft="@+id/pledari_german_results"
         android:layout_below="@+id/pledari_german_results"
         android:layout_marginTop="15dp"
-        android:text="aaa"
+        android:text="@string/pledari_ch"
         android:visibility="gone" 
          />
     
@@ -62,7 +75,7 @@
         android:layout_alignLeft="@+id/pledari_vallader_results"
         android:layout_below="@+id/pledari_vallader_results"
         android:layout_marginTop="15dp"
-        android:text="www.lehrpersonen.ch:"
+        android:text="@string/lehrpersonen_ch"
         android:visibility="gone" 
         />
     
@@ -85,7 +98,7 @@
         android:layout_alignLeft="@+id/lehrpersonen_web_view"
         android:layout_below="@+id/lehrpersonen_web_view"
         android:layout_marginTop="15dp"
-        android:text="www.udg.ch, *tudais-ch - vallader*:"
+        android:text="@string/udg_tudais"
         android:visibility="gone" 
         />
     <WebView
@@ -105,7 +118,7 @@
         android:layout_alignLeft="@+id/udg_web_view_german"
         android:layout_below="@+id/udg_web_view_german"
         android:layout_marginTop="15dp"
-        android:text="www.udg.ch, *vallader - tudais-ch*:"
+        android:text="@string/udg_vallader"
         android:visibility="gone" 
         />
     <WebView
@@ -125,7 +138,7 @@
         android:layout_alignLeft="@+id/udg_web_view_vallader"
         android:layout_below="@+id/udg_web_view_vallader"
         android:layout_marginTop="15dp"
-        android:text="www.pledari.ch, *tudais-ch - vallader*:"
+        android:text="@string/pledari_tudais"
         android:visibility="gone" 
         />
     
@@ -146,7 +159,7 @@
         android:layout_alignLeft="@+id/pledari_web_view_german_vallader"
         android:layout_below="@+id/pledari_web_view_german_vallader"
         android:layout_marginTop="15dp"
-        android:text="www.pledari.ch, *vallader - tudais-ch*:"
+        android:text="@string/pledari_vallader"
         android:visibility="gone" />
     
     <WebView

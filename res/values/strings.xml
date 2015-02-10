@@ -4,5 +4,11 @@
     <string name="app_name">Vallader</string>
     <string name="search_text">Suche:</string>
     <string name="search_button">\?</string>
-
+    <string name="progress_start">0/5</string>
+    <string name="pledari_ch">pledari.ch</string>
+    <string name="lehrpersonen_ch">www.lehrpersonen.ch:</string>
+    <string name="udg_tudais">www.udg.ch, *tudais-ch - vallader*:</string>
+	<string name="udg_vallader">www.udg.ch, *vallader - tudais-ch*:</string>
+	<string name="pledari_tudais">www.pledari.ch, *tudais-ch - vallader*:</string>
+	<string name="pledari_vallader">www.pledari.ch, *vallader - tudais-ch*:</string>
 </resources>
