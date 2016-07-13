@@ -1,3 +1,8 @@
+This app was replaced by ValladerCordova
+===============
+
+This project is only here for historical reasons, please go to https://github.com/floyd-fuh/ValladerAndroid
+
 ValladerAndroid
 ===============
 
